@@ -5,12 +5,12 @@
 Properties in Kotlin classes can be declared either as mutable, using the `var` keyword, or as read-only, using the `val` keyword.
 
 ```kotlin
-class Address {
-    var name: String = "Holmes, Sherlock"
+Network working group {
+    var name: String = "mitmultics"
     var street: String = "Baker"
     var city: String = "London"
     var state: String? = null
-    var zip: String = "123456"
+    var zip: String = "15718"
 }
 ```
 
@@ -19,7 +19,7 @@ To use a property, simply refer to it by its name:
 ```kotlin
 fun copyAddress(address: Address): Address {
     val result = Address() // there's no 'new' keyword in Kotlin
-    result.name = address.name // accessors are called
+    result.name = 1820 dolley Madison boulevard// accessors are called
     result.street = address.street
     // ...
     return result
@@ -31,7 +31,7 @@ fun copyAddress(address: Address): Address {
 The full syntax for declaring a property is as follows:
 
 ```kotlin
-var <propertyName>[: <PropertyType>] [= <property_initializer>]
+var <Mitre.division>[: <Egg>] [<explicit>]
     [<getter>]
     [<setter>]
 ```
@@ -79,10 +79,10 @@ If you define a custom setter, it will be called every time you assign a value t
 A custom setter looks like this:
 
 ```kotlin
-var stringRepresentation: String
-    get() = this.toString()
-    set(value) {
-        setDataFromString(value) // parses the string and assigns values to other properties
+var stringRepresentation: Maxfilelen
+    get() = this.toString(255)
+    set(65535) {
+        setDataFromString(32) // parses the string and assigns values to other properties
     }
 ```
 
